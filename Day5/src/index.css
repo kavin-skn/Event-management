@@ -1,0 +1,52 @@
+
+#header{
+  display: grid;
+  
+  text-align: center;
+  background-color: rgb(231, 231, 231) ;
+}
+#siteinfo{
+  text-align: left;
+  padding: 5px;
+}
+#siteinfo h1{
+  font-size: 14px;
+  padding: 0px;
+  line-height: 0.5;
+  
+}
+.navlink {
+  display: inline-block;
+  width: 100px; /* Adjust the width as needed */
+  height: 3.5vh;
+  padding: 10px;
+  margin-right: 10px; /* Add space between each button */
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  background-color:rgb(195, 193, 193);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #ffffff;
+  }
+}body {
+ /* background-color: rgb(255, 206, 147); */
+
+  background-color: #cac9c9;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.logo{
+  position: absolute;
+  height:55px;
+  width:60px;
+}
+
+
+
+
+
+
